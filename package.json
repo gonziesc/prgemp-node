@@ -1,0 +1,32 @@
+{
+  "name": "prgemp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonziesc/prgemp-node.git"
+  },
+  "author": "Gonza Esc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonziesc/prgemp-node/issues"
+  },
+  "homepage": "https://github.com/gonziesc/prgemp-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "dotenv": "^5.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "prettier": "^1.11.1"
+  }
+}
