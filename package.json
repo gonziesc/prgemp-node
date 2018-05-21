@@ -18,7 +18,8 @@
   "homepage": "https://github.com/gonziesc/prgemp-node#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "sequelize": "^4.37.8"
   },
   "devDependencies": {
     "babel": "^6.23.0",
