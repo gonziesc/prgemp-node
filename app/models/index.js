@@ -1,4 +1,4 @@
 const User = require('./user'),
-Job = require('./job');
+    Job = require('./job');
 
-User.hasMany(Job);
+exports.init = () => User.sync({ force: true }).then(Job.sync({ force: true }))
